@@ -10,8 +10,8 @@ three
 else
   i = 0
   full=String.new
-  while i <= array.length
-  if i ==array.length
+  while i < array.length
+  if i == array.length
     full << "and #{array[i]}"
   else
     full <<"#{array[i]}, "
