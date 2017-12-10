@@ -9,7 +9,7 @@ three = array[0] + ", " + array[1] + ", and " + array[2]
 three
 else
   i = 0
-  full=Array.new
+  full=String.new
   while i <= array.length
   if i ==array.length
     full << "and #{array[i]}"
