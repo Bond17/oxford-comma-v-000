@@ -11,7 +11,7 @@ else
   i = 0
   length=array.length -1
   full=String.new
-  while i < array.length
+  while i < length
   if (i == (array.length -1))
     full << "and #{array[i]}"
   else
