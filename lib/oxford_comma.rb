@@ -8,6 +8,11 @@ elsif array.size ==3
 three = array[0] + ", " + array[1] + ", and " + array[2]
 
 else
-  full =
+  i = 0
+  while i <= array.length
+  if i ==array.length
+  full <<
+  i+=1
+  end
 end
 end
