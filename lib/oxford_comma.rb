@@ -6,7 +6,7 @@ elsif array.size ==2
   two
 elsif array.size ==3
 three = array[0] + ", " + array[1] + ", and " + array[2]
-
+three
 else
   i = 0
   while i <= array.length
@@ -17,5 +17,6 @@ else
   end
   i+=1
   end
+  full
 end
 end
