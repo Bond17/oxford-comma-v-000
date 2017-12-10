@@ -11,7 +11,8 @@ else
   i = 0
   while i <= array.length
   if i ==array.length
-  full <<
+    full <<"#{array[i]},"
+  end
   i+=1
   end
 end
